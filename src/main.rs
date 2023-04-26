@@ -7,14 +7,17 @@
 
  use std::f64::consts::PI; // 3.14159265358979323846264338327950288, for precise precision :^).
  fn main() {
-
+    
+    
+    
+    
     ///INPUT YOUR DATA HERE!!!
     ///////////////////////////////////////////////////////////////
      let locations = vec!{"A", "B", "C", "D", "E", "F"};
-     let volumes_collected: Vec<f64> = vec!{2.0,2.0,2.0,2.0,2.0,2.0};// ml
-     let times_collected: Vec<f64> = vec!{2.0,2.0,2.0,2.0,2.0,2.0};// s
-     let diameters: Vec<f64> = vec!{2.0,2.0,2.0,2.0,2.0,2.0}; // mm, this doesn't change.
-     let static_pressure_heads: Vec<f64> = vec!{2.0,2.0,2.0,2.0,2.0,2.0};// mm
+     let volumes_collected: Vec<f64> = vec!{620.0, 530.0, 740.0, 600.0, 560.0, 660.0};// ml
+     let times_collected: Vec<f64> = vec!{5.76, 3.2, 6.3, 3.3, 3.4, 2.7};// s
+     let diameters: Vec<f64> = vec!{25.0, 13.9, 11.8, 10.7, 10.0, 25.0}; // mm, this doesn't change.
+     let static_pressure_heads: Vec<f64> = vec!{222.0, 474.0, 714.0, 75.0, 9.0, 30.0};// mm
      //////////////////////////////////////////////////////////////
      /// 
      /// 
